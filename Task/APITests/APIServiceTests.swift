@@ -29,6 +29,6 @@ class APIServiceTests: XCTestCase {
                 expect.fulfill()
                 XCTAssertEqual( response.count, 10)
             })
-            wait(for: [expect], timeout: 3.1)
+            wait(for: [expect], timeout: 5.0)
         }
     }
